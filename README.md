@@ -47,10 +47,10 @@ Procedure          | (lambda (var...) exp)  | Creates a procedure with
 # Example of execution
 The following is an example of execution flow:
 
-$ ./interpreter
+    $ ./interpreter
 
-Welcome to the fancy new Prompt LISP INTERPRETER, type in a lisp command!
-Type (quit) to exit the program
+    Welcome to the fancy new Prompt LISP INTERPRETER, type in a lisp command!
+    Type (quit) to exit the program
 
     Prompt> (define var1 5)
         var1 = 5
