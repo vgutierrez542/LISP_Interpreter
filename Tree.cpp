@@ -296,7 +296,7 @@ void Tree::check(vector<string> bufferVec) {
                 }
                 else if (bufferVec[0] == "define") {
                         this->variables[bufferVec[1]] = bufferVec[2];
-                        cout << bufferVec[1] << " = " << this->variables.begin()->second<<endl;
+                        cout << bufferVec[1] << " = " << bufferVec[2] << endl;
                         bufferVec.erase(bufferVec.begin(), bufferVec.begin() + 3);
 
                 }

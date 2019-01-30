@@ -29,7 +29,7 @@ int main(int argc, char const *argv[]) {
             return 0;
         }
 
-        cout << "\nWelcome to the fancy new Prompt LISP INTERPRETER, type in lisp command!\n";
+        cout << "\nWelcome to the fancy new Prompt LISP INTERPRETER, type in a lisp command!\n";
         cout << "Type (quit) to exit the program\n\n";
 
         while(input != "(quit)") {
